@@ -1,0 +1,22 @@
+{
+  "name": "styled-jsx-bug-repro",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "babel Component.js"
+  },
+  "repository": "https://github.com/jamesharv/styled-jsx-bug-repro",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@types/styled-jsx": "^2.2.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-jsx": "^3.4.4"
+  },
+  "engines": {
+    "node": "14.17.0",
+    "npm": "6.14.13"
+  }
+}
